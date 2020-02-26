@@ -1,0 +1,21 @@
+We create web api's for,
+1.Insret Person contact details
+2. Update Person contact details
+3.Delete/Inactive Person contact details
+4. Get all Person contact details
+
+We store all data in sql data base.
+DB Name ="EHIProject"
+We attached DB file along with attachement.
+Need to modify DB connection in web config file.
+
+For calling web api we provide Basic Authontication,
+User name = apikey123
+Uase pass = apisecret123
+
+We used Depenjency injection, single stone design pattern in this project.
+
+Folder structure,
+WebApplication1 -> Main Project(Runable Project)
+Libary - Core
+	 Services
